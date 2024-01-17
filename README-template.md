@@ -1,6 +1,6 @@
 # PROG-TOP-MAKE-IT-REAL
  HTML 404 PAGE NOT FOUND
-Acá va un párrafo que describa lo que es el proyecto
+En este proyecto encontrarás una página de error 404. 
 
 Comenzando 🚀
 Estas instrucciones te permitiran visitar una pagina 404 not found
@@ -20,14 +20,10 @@ Contribuyendo 🖇️
 Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 Wiki 📖
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra Wiki
+Esta pagina me ayudo mucho para los break points de la página https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 Autores ✒️
-Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios.
-Mis amigos Leidy & Luis Mesa
-
-Licencia 📄
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
+Andrea Vargas
 
 Expresiones de Gratitud 🎁
 Comenta a otros sobre este proyecto 📢
