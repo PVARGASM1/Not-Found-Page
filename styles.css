@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;700&family=Poppins:ital,wght@0,500;1,600&family=Space+Mono:ital@1&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Space Mono', monospace;
+}
+
+.title {
+  padding: 0 1.9rem;
+}
+
+header {
+  width: 100%;
+}
+
+header h2 {
+  font-size: 24px;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.container-img {
+  margin-bottom: 58px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-img img{
+  width: 75%;
+}
+
+header {
+  height: 4rem;
+  margin-bottom: 42px;
+  display: flex;
+  align-items: center;
+}
+
+body .content-info {
+  margin-bottom: 92px;
+}
+
+body .content-info h2{
+  margin-bottom: 25px;
+  font-size: 3rem;  
+  word-spacing: 0rem;
+  letter-spacing: -0.2rem;
+}
+
+body .content-info p {
+  margin-bottom: 64px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+button {
+  all:unset;
+  margin-top: 30px;
+  background-color: black;
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  font-size: 14px;
+  padding: 23px 43px;
+  cursor: pointer;
+}
+
+
+footer {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    height: 6rem;
+  }
+
+  main .main-flex {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .container-img {
+    width: 76%;
+    justify-content: unset;
+  }
+
+  .container-img img {
+    object-fit: contain;
+    width: 80%;
+    height: 90%;
+    margin-left: 32px;
+  }
+
+  body .content-info {
+    width: 77%;
+  }
+
+  body .content-info h2 {
+  font-size: 3.2rem;
+    letter-spacing: 0.07rem;
+    line-height: 5.1rem;
+  }
+
+  body .content-info p {
+    width: 325px;
+    margin-bottom: 52px;
+    line-height: 2.2rem;
+  }
+
+  body .content-info button {
+    width: 190px;
+    padding: 20px;
+  }
+
+  footer {
+    margin-top: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .general {
+    max-width: 1188px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
