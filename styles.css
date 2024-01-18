@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;700&family=Poppins:ital,wght@0,500;1,600&family=Space+Mono:ital@1&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +47,7 @@ header {
 
 body .content-info {
   margin-bottom: 92px;
+  margin-left: 45px;
 }
 
 body .content-info h2{
